@@ -1,3 +1,3 @@
-nasm -f elf32 boom-x86.asm -o boom-x86.o
-ld -m boom-x86 -o boom-x86 boom-x86.o
-./boom-x86
+nasm -f elf32 boom-x86.asm -o boomx86.o
+ld -m boomx86 -o boomx86 boomx86.o
+./boomx86
